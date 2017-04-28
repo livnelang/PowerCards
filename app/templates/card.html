@@ -1,0 +1,20 @@
+<div class="card" id="{{card.id}}">
+    <div class="home_details">
+        <div class="personal_details">
+            <img src="/app/pics/open_status.png"/>
+            <h3>{{card.name}}</h3>
+            <p>{{card.address}}</p>
+        </div>
+        <div class="settings">
+            <i class="fa fa-sun-o" aria-hidden="true"></i>
+            <span class="degree">{{card.degree}}  &#8457;</span>
+            <i class="fa fa-cog" aria-hidden="true"></i>
+        </div>
+    </div>
+    <!--card_properties-->
+    <div class="card_properties">
+        <!--kpis-->
+        <kpis class="kpis" props="card.kpis"></kpis>
+        <button ng-click="showCard(card.id)" class="view_site" type="button">VIEW SITE</button>
+    </div>
+</div>

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cards</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <!--CSS-->
+    <link rel="stylesheet" href="app/css/main.css">
+    <link rel="stylesheet" href="app/css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--JS-->
+    <script src="app/lib/angular.min.js"></script>
+    <!--App -->
+    <script src="app/app.js"></script>
+    <script src="app/services/cards.service.js"></script>
+</head>
+
+<body ng-app="myApp">
+<!-- wrapper  -->
+    <div id="wrapper">
+        <!--cards-header-->
+        <cards-header></cards-header>
+        <!--main-->
+        <main>
+            <cards-list></cards-list>
+        </main>
+    </div>
+</body>
+</html>

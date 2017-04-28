@@ -1,0 +1,21 @@
+<div class="kpi">
+    <span  class="total">{{props[0].total}} kW</span>
+    <span class="type">{{props[0].type}}</span>
+</div>
+
+<div class="kpi">
+    <span class="total">₪{{props[1].total}}</span>
+    <span class="type">{{props[1].type}}</span>
+</div>
+
+<div class="kpi">
+    <span class="total">{{props[2].total}}</span>
+    <span class="type">{{props[2].type}}</span>
+</div>
+
+<div class="kpi">
+    <span class="total" ng-class="{issues: props[3].total > 1}">{{props[3].total}} </span>
+    <span class="type" >{{props[3].type}}</span>
+</div>
+
+
